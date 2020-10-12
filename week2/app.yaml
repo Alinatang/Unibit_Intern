@@ -1,0 +1,21 @@
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: .
+
+env_variables:
+  APP_LOG: errorlog
+  MYSQL_USER: "editor"
+  MYSQL_PASSWORD: "nancy05141424"
+  # MYSQL_DSN: "mysql:host=127.0.0.1;port=3306;dbname=test"
+  MYSQL_DSN: "mysql:dbname=test;unix_socket=/cloudsql/qiaoqi:us-central1:internship"
+  MYSQL_DATABASE: "test"
+
+beta_settings:
+  # cloud_sql_instances: qiaoqi:us-central1:internship=tcp:3306
+  cloud_sql_instances: "qiaoqi:us-central1:internship"
+
+# - url: /favicon\.ico
+#   static_files: static/images/favicon.ico
+#   upload: static/images/favicon\.ico

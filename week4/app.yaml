@@ -1,0 +1,16 @@
+runtime: php72
+# api_version: 1
+
+# handlers:
+# - url: .*
+#   script: auto
+
+
+# Serve images as static resources.
+
+
+# Serve php scripts.
+
+# - url: /favicon\.ico
+#   static_files: static/images/favicon.ico
+#   upload: static/images/favicon\.ico

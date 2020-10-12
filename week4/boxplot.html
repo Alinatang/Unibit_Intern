@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+	<!-- <script src="https://d3js.org/d3-time-format.v2.min.js"></script> -->
+    <!-- <script src="box.js" type="module" defer></script> -->
+	<title>
+		test 
+	</title>
+</head>
+<body>
+<script type="module" defer>
+	import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+	// import box from "./example.js";
+	// import box from "./box.js";
+	import box from "./box.js";
+	new Runtime().module(box, Inspector.into(document.body));
+    // import define from "./box.js";
+    // new runtime.module();
+    // console.log(d.date);
+    // window.onload=function(){
+    // return main;}
+</script>
+
+</body>
+</html>
+
+
